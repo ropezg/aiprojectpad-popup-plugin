@@ -1,4 +1,4 @@
-=== AIPowerPad Popup Plugin ===
+=== AIProjectPad Popup Plugin ===
 Contributors: yourusername
 Tags: popup, form, opt-in, marketing
 Requires at least: 5.0
@@ -12,13 +12,13 @@ A simple WordPress plugin to display a customizable popup window.
 
 == Description ==
 
-AIPowerPad Popup Plugin allows you to display a custom popup window on your WordPress site, which can be used for opt-in forms, promotions, and more. This plugin provides a customizable popup where you can add HTML content, such as forms, images, and text. It's easy to set up and provides options for popup width, delay, and auto-hide settings.
+AIProjectPad Popup Plugin allows you to display a custom popup window on your WordPress site, which can be used for opt-in forms, promotions, and more. This plugin provides a customizable popup where you can add HTML content, such as forms, images, and text. It's easy to set up and provides options for popup width, delay, and auto-hide settings.
 
 == Installation ==
 
-1. Upload the `aipowerpad-popup-plugin` folder to the `/wp-content/plugins/` directory.
+1. Upload the `AIProjectPad-popup-plugin` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to Settings > AIPowerPad Popup to configure the plugin and set up your popup content.
+3. Go to Settings > AIProjectPad Popup to configure the plugin and set up your popup content.
 
 == Frequently Asked Questions ==
 
