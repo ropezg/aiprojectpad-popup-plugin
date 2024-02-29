@@ -57,7 +57,7 @@ public function enqueue_scripts() {
 
 
     public function add_plugin_page() {
-        add_options_page('aiprojectpad Popup Settings', 'aiprojectpad Popup', 'manage_options', 'aiprojectpad-popup', [$this, 'create_admin_page']);
+        add_options_page('AiProjectPad Popup Settings', 'aiprojectpad Popup', 'manage_options', 'aiprojectpad-popup', [$this, 'create_admin_page']);
     }
 
     public function create_admin_page() {
@@ -73,7 +73,7 @@ public function enqueue_scripts() {
         register_setting('aiprojectpad_popup_option_group', 'aiprojectpad_popup_auto_hide', ['sanitize_callback' => 'absint']);
         register_setting('aiprojectpad_popup_option_group', 'aiprojectpad_popup_max_show', ['sanitize_callback' => 'absint']);
 
-        add_settings_section('setting_section_id', 'aiprojectpad Popup Settings', null, 'aiprojectpad-popup-admin');
+        add_settings_section('setting_section_id', 'AiProjectPad Popup Settings', null, 'aiprojectpad-popup-admin');
 
         $this->add_settings_fields();
     }
