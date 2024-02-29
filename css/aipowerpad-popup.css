@@ -1,5 +1,5 @@
 /* Overlay styles */
-#aipowerpad-popup-overlay {
+#aiprojectpad-popup-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
 }
 
 /* Popup container styles */
-#aipowerpad-popup-container {
+#aiprojectpad-popup-container {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -28,7 +28,7 @@
 }
 
 /* Dismiss button styles */
-#aipowerpad-popup-container .aipowerpad-popup-dismiss {
+#aiprojectpad-popup-container .aiprojectpad-popup-dismiss {
     position: absolute;
     top: 10px; /* Adjust as needed */
     right: 10px; /* Adjust as needed */
@@ -43,23 +43,23 @@
 }
 
 /* Form and Table styles for proper alignment */
-#aipowerpad-popup-container form {
+#aiprojectpad-popup-container form {
     display: inline-block; /* Align form within the center of the container */
     text-align: left; /* Align the text to the left within the form */
 }
 
-#aipowerpad-popup-container table {
+#aiprojectpad-popup-container table {
     margin: 0 auto; /* Center-align the table */
 }
 
 /* Input and Button styles */
-#aipowerpad-popup-container input[type="text"] {
+#aiprojectpad-popup-container input[type="text"] {
     padding: 5px;
     border: 1px solid #ccc;
     width: 200px; /* Adjust as needed */
 }
 
-#aipowerpad-popup-container input[type="submit"] {
+#aiprojectpad-popup-container input[type="submit"] {
     background-color: #007bff;
     color: white;
     padding: 10px 20px;
@@ -68,25 +68,25 @@
     cursor: pointer;
 }
 
-#aipowerpad-popup-container input[type="submit"]:hover {
+#aiprojectpad-popup-container input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    #aipowerpad-popup-container {
+    #aiprojectpad-popup-container {
         width: 90%!important; /* Adjust for smaller screens, overriding inline styles */
         padding: 20px;
     }
 }
 
-    #aipowerpad-popup-container form {
+    #aiprojectpad-popup-container form {
         text-align: center;
     }
 
-    #aipowerpad-popup-container table,
-    #aipowerpad-popup-container input[type="text"],
-    #aipowerpad-popup-container input[type="submit"] {
+    #aiprojectpad-popup-container table,
+    #aiprojectpad-popup-container input[type="text"],
+    #aiprojectpad-popup-container input[type="submit"] {
         width: 100%; /* Full width for smaller screens */
         box-sizing: border-box; /* Include padding and border in element's width */
     }
