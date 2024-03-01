@@ -21,7 +21,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    padding: 30px;
+    padding: 40px; /* Increased padding */
     box-sizing: border-box; /* Ensures padding does not affect width */
     max-width: 500px; /* Adjust based on your content */
     width: 90%; /* Responsive width */
@@ -30,15 +30,15 @@
 /* Dismiss button styles */
 #aiprojectpad-popup-container .aiprojectpad-popup-dismiss {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    background-color: #fff;
+    top: 15px; /* Slightly increased for better clearance */
+    right: 15px; /* Slightly increased for better clearance */
+    background-color: transparent; /* For less intrusive look */
     color: #6f6f6f;
     cursor: pointer;
     font-weight: bold;
     padding: 5px 10px;
     line-height: 1;
-    font-size: 20px;
+    font-size: 24px; /* Slightly larger for easier clicking */
     border: none; /* Remove border or set as needed */
 }
 
@@ -53,17 +53,18 @@
 }
 
 /* Input and Button styles */
-#aiprojectpad-popup-container input[type="text"] {
-    padding: 5px;
+#aiprojectpad-popup-container input[type="text"],
+#aiprojectpad-popup-container input[type="submit"] {
+    padding: 10px; /* More padding for better touch interaction */
+    margin-top: 10px; /* Additional space for clarity */
     border: 1px solid #ccc;
-    width: 200px; /* Adjust as needed */
+    width: calc(100% - 24px); /* Adjust width to fit container with padding */
+    box-sizing: border-box; /* Include padding and border in element's width */
 }
 
 #aiprojectpad-popup-container input[type="submit"] {
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -75,19 +76,12 @@
 /* Responsive Design */
 @media (max-width: 600px) {
     #aiprojectpad-popup-container {
-        width: 90%!important; /* Adjust for smaller screens, overriding inline styles */
+        width: 90%!important; /* Adjust for smaller screens */
         padding: 20px;
     }
-}
 
-    #aiprojectpad-popup-container form {
-        text-align: center;
-    }
-
-    #aiprojectpad-popup-container table,
-    #aiprojectpad-popup-container input[type="text"],
-    #aiprojectpad-popup-container input[type="submit"] {
-        width: 100%; /* Full width for smaller screens */
-        box-sizing: border-box; /* Include padding and border in element's width */
+    #aiprojectpad-popup-container .aiprojectpad-popup-dismiss {
+        top: 5px; /* Readjust if necessary for mobile */
+        right: 5px; /* Readjust if necessary for mobile */
     }
 }
